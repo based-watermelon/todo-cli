@@ -110,7 +110,7 @@ def first_init():
         print_todos()
     else:
         print("TODO LIST")
-        create_todo()
+        read_from_file()
         print_todos()
 
 def main():
